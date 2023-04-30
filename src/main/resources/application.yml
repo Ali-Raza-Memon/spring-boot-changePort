@@ -3,4 +3,10 @@ server:
 
 spring:
     main:
-      web-application-type: none
+      web-application-type: servlet
+#
+#      Here is three types:
+#        1) none
+#        2) reactive
+#        3) servlet
+#      default is servlet
